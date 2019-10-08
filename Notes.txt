@@ -1,0 +1,33 @@
+Yarn
+
+Ambari Management
+  - Arayüz
+
+
+Hadoop Ecosystem
+  - Hive
+    - sql yeteneği
+  - Kafka
+    - Topiklere publish, subscribe
+  - Pig
+  - Spark
+  - Strom & Spark Streaming
+    -
+    - Strom = Veri gelirgelmez veri işleme
+  - Hbase
+    - Hızlı veri tabanı
+    - NoSql
+  - Phoenix
+    -Hbase e sql yeteneği kazandırır
+  - MR
+  
+Security
+  - BigData ortamı herkese açık.
+  - Ranger
+    - Güvenlik ayarı
+  
+Advanced Topics
+  - Yarn Schedulers, Queues, Sizing
+  - Hive Query Optimization
+  - Spark Optimization
+  - High Availability
