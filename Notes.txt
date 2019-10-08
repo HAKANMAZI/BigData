@@ -1,8 +1,5 @@
-Yarn
-
-Ambari Management
-  - Arayüz
-
+http://reddit.com/
+  Güncel konu takibi
 
 Hadoop Ecosystem
   - Hive
@@ -12,7 +9,8 @@ Hadoop Ecosystem
   - Pig
   - Spark
   - Strom & Spark Streaming
-    -
+    - Spark Streaming = Anlık okuma, Realtime
+    - ML Library = 
     - Strom = Veri gelirgelmez veri işleme
   - Hbase
     - Hızlı veri tabanı
@@ -31,3 +29,59 @@ Advanced Topics
   - Hive Query Optimization
   - Spark Optimization
   - High Availability
+
+
+Volume = veri miktarı
+Varety = veri çeşitliliği
+Velocity = veri hızı
+Veracity = Veri doğruluğu
+
+
+Hadoop 
+  - Amazon = STREE Sunucu
+  - Sınırsız yatay büyüme
+  - ML ve AL ile mantıklı
+  - Ucuz
+  - Yahoo gelistirdi (Google File System)
+  - Apache.org project list
+  - HDFS
+    - 
+  - Yarn
+    - Kaynakları dağıtma
+    - Yet Another Resource Manager
+    - CPU and Mem takibi yapar
+  - Uygulamalar
+    - MapReduce(Zor), Hive(Sql yeteneği), Spark ...
+
+Netflix tech blog
+Linkedln tech blog
+ - Kafka'yı açık koda bağışladı
+Google Analytics
+Graph Data
+
+DataScience VS BigData
+  - Data
+    - Istatistic bilmeli
+    - Veriyi anlamlandıran
+  - BigData
+    - Verinin ortamı sağlar
+  
+Machine Learning VS Deep Learning
+  knn (Nearest Neighbor) 
+    Sınıflandırma
+  Lineer
+    Fiyat hesaplama
+
+Deep Learning = Öğrenme
+    
+
+
+
+
+
+
+
+
+
+
+
