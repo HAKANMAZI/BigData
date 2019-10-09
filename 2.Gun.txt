@@ -1,0 +1,63 @@
+    2  ls /vagrant
+    3  rm Yeni Metin Belgesi.txt
+    4  ls
+    5  cd /vagrant
+    6  ls
+    7  rm Yeni\ Metin\ Belgesi.txt
+    8  ls
+    9  hdfs
+   10  history
+
+
+    1  ls
+    2  pwd
+    3  cd /vagrant/data/
+    4  ls
+    5  hdfs dfs -ls
+    6  hdfs dfs -put salaries.csv salaries.csv
+    7  hdfs dfs -ls
+    8  ls
+    9  hdfs dfs -ls
+   10  ls
+   11  rm salaries.csv
+   12  ls
+   13  hdfs dfs -get /user/vagrant/salaries.csv
+   14  ls
+   15  history
+   16  cd ..
+   17  history
+
+    1  ls
+    2  pwd
+    3  cd /vagrant/data/
+    4  ls
+    5  hdfs dfs -ls
+    6  hdfs dfs -put salaries.csv salaries.csv
+    7  hdfs dfs -ls
+    8  ls
+    9  hdfs dfs -ls
+   10  ls
+   11  rm salaries.csv
+   12  ls
+   13  hdfs dfs -get /user/vagrant/salaries.csv
+   14  ls
+   15  history
+
+
+
+
+hdfs fsck /user/vagrant/salaries.csv
+  - health
+  - knowledge
+  
+sudo find /hadoop/hdfs -name 'hakan' -print
+  - find
+  
+MapReduce
+  - Word Count
+  - Hadoop içinde jar olarak var
+ 
+hdfs dfs -ls
+  - check hadoop local
+  
+hdfs dfs -cat wordcount_out/part-r-00000
