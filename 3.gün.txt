@@ -1,0 +1,28 @@
+    3  su -
+    4  sudo vi /etc/ambari-agent/conf/ambari-agent.ini
+    5  su - hdfs
+    6  hdfs dfsadmin -safemode get
+    7  hdfs dfsadmin -safemode leave
+    8  sudo hdfs dfsadmin -safemode leave
+    9  hdfs dfsadmin -safemode leave
+   10  su - hdfs dfsadmin -safemode leave
+   11  su -hdfs
+   12  su - hdfs
+   13  su - hdfs dfsadmin -safemode leave
+   14  sudo - hdfs
+   15  sudo  su - hdfs
+   16  ls /vagrant/data
+   17  wc -l /vagrant/data/names.csv
+   18  cat /vagrant/data/names.csv
+   19  pig
+   20  ls
+   21  cd pig
+
+
+Spark
+  - Memory de çalışır hızlı Mapreduce(disk) göre
+  - Python, java, scala
+  
+  
+Hive
+  - sql sorgu
