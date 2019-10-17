@@ -16,8 +16,8 @@ class MyStreamListener(tw.StreamListener):
     def on_error(selt, tweet):
         print("Error detected")
         
-auth = tw.OAuthHandler('00ygJJHLbMdw2bnMGSaLQ36DU', 'm3GD6sjvRvIsQFIHqZMZpQeF1zPiywg2CMqQgP7dek7JlTvolQ')
-auth.set_access_token('356842278-vSESU2chVWDijz7hCBa6GJtawl9QqdiYrK9TBtww', 'VIPwWf5oSCzwgqZFIXDDlCdquPWP3LCY1oYB75rXG56ie')
+auth = tw.OAuthHandler('token', 'token')
+auth.set_access_token('token', 'token')
 api = tw.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 
