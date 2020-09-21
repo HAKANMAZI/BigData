@@ -3,3 +3,6 @@
   
 * Download And İnstall Wmware Workstation
   https://www.vmware.com/tr/products/workstation-pro/workstation-pro-evaluation.html
+  
+** Wmware Workstation
+    Install Centos in Wmware
