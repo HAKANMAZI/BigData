@@ -1,1 +1,1 @@
-dsa
+https://linuxhint.com/install-python-pip-centos7/
